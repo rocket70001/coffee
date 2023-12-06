@@ -1,4 +1,4 @@
-package com.sisyps.douanier.domain;
+package com.sisyps.douanier.domain.member;
 
 import jakarta.persistence.Embeddable;
 

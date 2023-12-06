@@ -1,4 +1,4 @@
-package com.sisyps.douanier.domain;
+package com.sisyps.douanier.domain.member;
 
 import jakarta.persistence.*;
 import lombok.*;
@@ -20,4 +20,9 @@ public class Member {
 
     @Embedded
     private PersonalInformation personalInformation;
+    @OneToOne
+    private AgreedTerms agreedTerms;
+    @OneToOne
+    private MemberLog memberLog;
+
 }
